@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/beijing1"
+        >
+        
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="70dp" 
+                 
+            >
+            
+            <TextView 
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="追书"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/baise"
+                />
+            
+              <TextView 
+                   android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="社区"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/huise"
+                />
+            
+              <TextView 
+                   android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="发现"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/huise"
+                />
+            
+        </LinearLayout>
+        
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            
+            <ImageView 
+                android:id="@+id/image11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sanjiao1"
+                />
+            
+            
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    <android.support.v4.view.ViewPager
+        
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        
+        />
+    
+    
+    
+    
+    
+    
+   
+</LinearLayout>
